@@ -8,7 +8,7 @@ const Header = () => {
         <HeaderForm>
           <HeaderInput type="text" placeholder="Search on LINER"></HeaderInput>
         </HeaderForm>
-        <span>돋보기</span>
+        <div>돋보기</div>
       </InputDiv>
       <div>
         <span>notification</span>
