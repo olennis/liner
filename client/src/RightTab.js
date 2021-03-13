@@ -2,7 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 const RightTab = () => {
-  return <Container>rigthttab</Container>;
+  return (
+    <Container>
+      <div>welcome package</div>
+      <div>add liner</div>
+      <div>trending keyword</div>
+      <div>trending pages</div>
+    </Container>
+  );
 };
 
 const Container = styled.div`
@@ -11,4 +18,5 @@ const Container = styled.div`
   flex-direction: column;
   margin-top: 100px;
 `;
+
 export default RightTab;

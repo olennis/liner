@@ -10,10 +10,11 @@ const Header = () => {
         </HeaderForm>
         <div>돋보기</div>
       </InputDiv>
-      <div>
+
+      <RightbuttonDiv>
         <span>notification</span>
         <span>pdf</span>
-      </div>
+      </RightbuttonDiv>
     </Container>
   );
 };
@@ -30,6 +31,9 @@ const HeaderInput = styled.input`
 `;
 const HeaderForm = styled.form`
   width: 100%;
+`;
+const RightbuttonDiv = styled.div`
+  margin-right: 100px;
 `;
 const InputDiv = styled.div`
   width: 680px;
